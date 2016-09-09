@@ -6,6 +6,10 @@ cap = cv2.VideoCapture(0)
 while(True):
     # Capture frame-by-frame
     ret, frame = cap.read()
+    if type(frame) == type(None):
+        #print("H/w issues")
+        #print(Exception)
+        break
 
     # Our operations on the frame come here
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
