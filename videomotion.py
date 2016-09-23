@@ -2,11 +2,11 @@
 import cv2
 
 
-cascade_src = 'haarcascades/haarcascade_frontalface_default.xml'
-#video_src = 'videos/output.avi'
+cascade_src = 'haarcascades/cascade.xml'
+video_src = 'videos/cut_video.mp4'
 # video_src = 'dataset/video2.avi'
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(video_src)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 
 while True:
@@ -26,7 +26,7 @@ while True:
         print(myrect)
         if myrect != []:
             font = cv2.FONT_HERSHEY_SIMPLEX
-            cv2.putText(img, 'Face', (x + w, y + h), font, 0.5, (11, 255, 255), 2, cv2.LINE_AA)
+            #cv2.putText(img, 'Face', (x + w, y + h), font, 0.5, (11, 255, 255), 2, cv2.LINE_AA)
 
     cv2.imshow('video', img)
 
