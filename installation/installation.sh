@@ -49,21 +49,8 @@ sudo make install
 sudo ldconfig
 
 
-# EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
-
-# To complete this step, please visit 'http://milq.github.io/install-opencv-ubuntu-debian'.
-
 # pyqt4 and phonon installation
 sudo apt install build-essential python3-dev libqt4-dev
 sudo apt-get install python3-pyqt4
 sudo apt-get install python-qt4 qt4-dev-tools python-qt4-dev pyqt4-dev-tools
 sudo apt-get install python3-pyqt4.phonon
-
-
-
-
-
-
-
-
-
