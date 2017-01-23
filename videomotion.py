@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(video_src)
 car_cascade = cv2.CascadeClassifier(cascade_src)
 
 while True:
-    ret, img = cap.read(0)
+    ret, img = cap.read()
     if (type(img) == type(None)):
         print("No Camera connected / Hardware issues")
         break

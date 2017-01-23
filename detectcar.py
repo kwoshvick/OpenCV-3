@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-car_cascade = cv2.CascadeClassifier('haarcascades/cars.xml')
+car_cascade = cv2.CascadeClassifier('assets/haarcascades/cars.xml')
 
 img = cv2.imread('images/8.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
