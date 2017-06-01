@@ -1,10 +1,14 @@
 # OpenCv 3.2 and Pyqt5 Installation
 
-###  Requirements
- The system should have atleast python3.5 installed
-  * Python 3.5 and above
-  * Pyqt5
+Installation of Opencv3.2 and Pyqt5 
 
+## Requirements
+ - The system should have atleast python3.5 installed
+ - OS : ubuntu 16.04
+ 
 
 **Procedure**
-  * To install OpenCv 3.1 , Pyqt4 and Phonon bash the installation script in the installation folder i.e sudo bash installation.sh
+
+   ```sh
+   sudo bash installation.sh
+  ``` 

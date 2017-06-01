@@ -43,8 +43,8 @@ mv opencv-3.2.0 OpenCV
 cd OpenCV
 mkdir build
 cd build
-cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON ..
-make -j4
+sudo cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON ..
+sudo make -j4
 sudo make install
 sudo ldconfig
 
@@ -53,5 +53,5 @@ sudo ldconfig
 sudo apt install build-essential python3-dev libqt4-dev
 sudo apt-get install python3-pyqt5
 sudo apt-get install qt5-default
-pt-get install python3-pyqt5.qsci python3-jinja2 python3-pyqt5.qtsvg python3-pyqt5.qtserialport
+sudo pt-get install python3-pyqt5.qsci python3-jinja2 python3-pyqt5.qtsvg python3-pyqt5.qtserialport
 
