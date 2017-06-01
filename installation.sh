@@ -36,10 +36,10 @@ sudo apt-get install -y doxygen
 # INSTALL THE LIBRARY (YOU CAN CHANGE '3.1.0' FOR THE LAST STABLE VERSION)
 
 sudo apt-get install -y unzip wget
-wget https://github.com/Itseez/opencv/archive/3.1.0.zip
-unzip 3.1.0.zip
-rm 3.1.0.zip
-mv opencv-3.1.0 OpenCV
+wget https://github.com/Itseez/opencv/archive/3.2.0.zip
+unzip 3.2.0.zip
+rm 3.2.0.zip
+mv opencv-3.2.0 OpenCV
 cd OpenCV
 mkdir build
 cd build
@@ -49,8 +49,9 @@ sudo make install
 sudo ldconfig
 
 
-# pyqt4 and phonon installation
+# pyqt5
 sudo apt install build-essential python3-dev libqt4-dev
-sudo apt-get install python3-pyqt4
-sudo apt-get install python-qt4 qt4-dev-tools python-qt4-dev pyqt4-dev-tools
-sudo apt-get install python3-pyqt4.phonon
+sudo apt-get install python3-pyqt5
+sudo apt-get install qt5-default
+pt-get install python3-pyqt5.qsci python3-jinja2 python3-pyqt5.qtsvg python3-pyqt5.qtserialport
+
