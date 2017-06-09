@@ -2,7 +2,7 @@
 
 Installation of Opencv3.2 and Pyqt5 
 
-## Requirements
+**Requirements**
  - The system should have atleast python3.5 installed
  - OS : ubuntu 16.04
  
