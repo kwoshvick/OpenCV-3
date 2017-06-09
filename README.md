@@ -12,3 +12,9 @@ Installation of Opencv3.2 and Pyqt5
    ```sh
    sudo bash installation.sh
   ``` 
+  
+  If you have NVIDIA graphics card and you have installed [CUDA](https://developer.nvidia.com/cuda-downloads), use `nvidia-cuda` script.
+   ```sh
+   sudo bash nvidia-cuda.sh
+  ``` 
+  
