@@ -53,5 +53,5 @@ sudo ldconfig
 sudo apt install build-essential python3-dev libqt4-dev
 sudo apt-get install python3-pyqt5
 sudo apt-get install qt5-default
-sudo pt-get install python3-pyqt5.qsci python3-jinja2 python3-pyqt5.qtsvg python3-pyqt5.qtserialport
+sudo apt-get install python3-pyqt5.qsci python3-jinja2 python3-pyqt5.qtsvg python3-pyqt5.qtserialport
 
